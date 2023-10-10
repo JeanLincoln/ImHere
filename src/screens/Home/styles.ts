@@ -16,7 +16,16 @@ export const styles = StyleSheet.create({
 
   eventDate: { color: "black", fontSize: 20 },
 
+  form: {
+    width: "100%",
+    marginTop: 36,
+    marginBottom: 42,
+    flexDirection: "row",
+    gap: 10,
+  },
+
   input: {
+    flex: 1,
     backgroundColor: "#1f1e25",
     height: 56,
     borderRadius: 5,
