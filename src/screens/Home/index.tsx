@@ -2,6 +2,7 @@ import React from "react";
 
 import { Text, View, TextInput, TouchableOpacity } from "react-native";
 import { styles } from "./styles";
+import { Participant } from "../../components/Participant";
 
 export function Home() {
   const handleParticipantAdd = () => {
@@ -23,6 +24,10 @@ export function Home() {
           <Text style={styles.buttonText}>+</Text>
         </TouchableOpacity>
       </View>
+
+      <Participant />
+      <Participant />
+      <Participant />
     </View>
   );
 }
